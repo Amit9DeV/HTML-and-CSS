@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/src/img/web-design-2906159_1280.jpg);
+    background-size: cover;
+}
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+h2{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #00ffca;
+    
+}
+.container{
+
+    max-width: 600px;
+    margin-left: 43%;
+    max-height: fit-content;
+    margin-bottom: 50px;
+    
+}
+.applybox{
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgb(236 39 221);
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 3px 3px 3px 14px rgb(101, 4, 101);
+    border-radius: 10px;
+    max-height: fit-content;
+  
+}
+.web{
+    font-size: small;
+    font-style: oblique;
+}
+.formcontainer{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); 
+    grid-gap: 10px;
+}
+.formcontrol{
+  flex-direction: column;
+  display: grid;
+  grid-gap: 3px;
+
+}
+label{
+    font-size: 15px;
+    margin-bottom: 1px;
+    cursor: pointer;
+    color: #ffe701;
+
+}
+input,select,textarea{
+    padding: 6px 10px;
+    border: 2px solid rgb(237, 37, 180);
+    border-radius: 4px;
+    font-size: 15px;
+    color: #007e0f;
+
+}
+input:focus{
+    color: rgb(160, 23, 23);
+
+}
+
+.button_container{
+    display: flex;
+    justify-content: end;
+  
+    cursor: pointer;
+    
+    
+}
+button{
+    background-color: #4f16b7;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: rgb(15, 219, 22);
+}
+input{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); 
+    color: #4f16b7;
+}
+.Apply{
+    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    border: 10px solid #4f16b7;
+}
